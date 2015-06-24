@@ -229,6 +229,7 @@ def mounted(name,
                     'password',
                     'retry',
                     'port',
+                    'backup-volfile-servers',
                 ]
                 # Some filesystems have options which should not force a remount.
                 mount_ignore_fs_keys = {
